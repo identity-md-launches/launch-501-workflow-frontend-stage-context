@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-09-30T09:33:45.538Z",
+  "sourceCommit": "45bf43dc6fa250c15c8588db90f5ee301dac9da3",
+  "expectedChainId": 11155111,
+  "mode": "Read-only public RPC; no wallet signing or broadcast",
+  "pinnedAbiHashesVerified": {
+    "LaunchToken": "33a8b4f8e383fe87bca830d09802e33a33e4e76d7c2310d8241ff8e6765165c2",
+    "GrantExecutor": "1a4e47b00aea8fdb314cb5396dd9bfe3a6e8a037f5d4fda07e9a410a9a4c2edb",
+    "CityRegistry": "2db2d4d215e74ea789708b814b3eae92595399e9e54d46c84174282b27ea7728"
+  },
+  "rpcUrls": [
+    "https://ethereum-sepolia-rpc.publicnode.com",
+    "https://rpc.sepolia.ethpandaops.io",
+    "https://sepolia.rpc.sentio.xyz"
+  ],
+  "expectedWorkflowRole": "0x5b95A971B4583A5f011E9DA082acdD679b870D06",
+  "chainId": 11155111,
+  "blockNumber": "11813791",
+  "code": [
+    {
+      "name": "LaunchToken",
+      "address": "0xdcd861b115064c3f85be0ee3ba9b80bd05ae65a5",
+      "byteLength": 1501
+    },
+    {
+      "name": "GrantExecutor",
+      "address": "0xdc9ba1ba90dab300dfc94d0eedd88dd9b37a3a30",
+      "byteLength": 1285
+    },
+    {
+      "name": "CityRegistry",
+      "address": "0xf0a48998b6e3811c2b272b4bc9f97f0c35382db7",
+      "byteLength": 5191
+    }
+  ],
+  "bindings": {
+    "token": "0xDcd861b115064c3f85bE0Ee3Ba9b80bd05ae65A5",
+    "executor": "0xdC9bA1Ba90DAB300dFC94d0Eedd88Dd9b37A3a30",
+    "treasury": "0x09EC38170E94532EDdB57c69DfC4F1fDCD0d4a60",
+    "operator": "0x09EC38170E94532EDdB57c69DfC4F1fDCD0d4a60",
+    "decimals": 18
+  },
+  "bindingChecks": {
+    "token": true,
+    "executor": true,
+    "treasuryPolicy": false,
+    "operatorPolicy": false,
+    "decimals": true
+  },
+  "snapshot": {
+    "soldPlots": "0",
+    "totalWeight": "0",
+    "rewardsPool": "0",
+    "resourcePot": "0",
+    "heartbeatCount": "0",
+    "lastHeartbeatTimestamp": "0",
+    "grantsPaused": false,
+    "citiesRead": 256,
+    "ownedCities": 0,
+    "purchaseQuote": [
+      "10000000000000000000000",
+      "400000000000000000000",
+      "10400000000000000000000"
+    ]
+  },
+  "result": "Authorization or deployment binding conflict: runtime writes remain disabled"
+}

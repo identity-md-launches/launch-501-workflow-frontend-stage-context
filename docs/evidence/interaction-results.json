@@ -1,0 +1,285 @@
+{
+  "recordedAt": "2026-09-30T09:42:00.081Z",
+  "browserVersion": "145.0.7632.6",
+  "exportPath": "dist/",
+  "exportManifestSha256": "618f17b3298b6d045d5e8c5e0f0ab3228a7cd1640f8be9e67ad3b1b2d1ee33d1",
+  "servingPath": "/preview/",
+  "results": [
+    {
+      "name": "Missing browser wallet gives a recovery instruction",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 2
+    },
+    {
+      "name": "Connection rejection and unknown chain add/switch recover",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 874
+    },
+    {
+      "name": "Purchase approval rejection, pending lock and soulbound purchase review",
+      "status": "passed",
+      "transactions": [
+        "approve",
+        "buyCity"
+      ],
+      "rpcRequests": 1743
+    },
+    {
+      "name": "Owner level and reward claims, non-owner restrictions, keyboard map",
+      "status": "passed",
+      "transactions": [
+        "levelUp",
+        "claimRewards"
+      ],
+      "rpcRequests": 1744
+    },
+    {
+      "name": "Operator grant, heartbeat validation, pause and resume",
+      "status": "passed",
+      "transactions": [
+        "grantResources",
+        "recordHeartbeat",
+        "pauseGrants",
+        "unpauseGrants"
+      ],
+      "rpcRequests": 2044
+    },
+    {
+      "name": "GRID transfer validates recipient and simulates before the wallet request",
+      "status": "passed",
+      "transactions": [
+        "transfer"
+      ],
+      "rpcRequests": 1168
+    },
+    {
+      "name": "Actual deployment authorization mismatch locks writes visibly",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 1134
+    },
+    {
+      "name": "Missing contract code blocks all transaction paths",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 812
+    },
+    {
+      "name": "Native swap simulation, slippage, router encoding and no approval",
+      "status": "passed",
+      "transactions": [
+        "execute"
+      ],
+      "rpcRequests": 1174
+    },
+    {
+      "name": "Token swap requires exact token and Permit2 approval steps",
+      "status": "passed",
+      "transactions": [
+        "approve",
+        "approve",
+        "execute"
+      ],
+      "rpcRequests": 2390
+    },
+    {
+      "name": "Input invalidation, invalid slippage and quote failure block swaps",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 1162
+    },
+    {
+      "name": "Expired quote and empty liquidity prevent router signing",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 1161
+    },
+    {
+      "name": "Modified implementation ABI fails integrity before enabling controls",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 0
+    },
+    {
+      "name": "RPC failure locks transactions and explicit refresh recovers",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 2247
+    },
+    {
+      "name": "Production subpath, responsive layout, accessible controls and rendered styles",
+      "status": "passed",
+      "transactions": [],
+      "rpcRequests": 563
+    }
+  ],
+  "checks": [
+    {
+      "kind": "viewport",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "gridScroll": false
+    },
+    {
+      "kind": "viewport",
+      "width": 900,
+      "documentWidth": 900,
+      "bodyWidth": 900,
+      "gridScroll": true
+    },
+    {
+      "kind": "viewport",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "gridScroll": true
+    },
+    {
+      "kind": "viewport",
+      "width": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "gridScroll": true
+    },
+    {
+      "kind": "semantics",
+      "unnamedButtons": 0,
+      "unlabelledInputs": 0,
+      "activeElement": "plot-1",
+      "outline": "rgb(224, 237, 255) solid 2px",
+      "font": "SFMono-Regular, Consolas, \"Liberation Mono\", monospace",
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "A small plot.A shared future.",
+          "size": "72px",
+          "weight": "500"
+        },
+        {
+          "tag": "H2",
+          "text": "Choose your coordinates",
+          "size": "22px",
+          "weight": "500"
+        },
+        {
+          "tag": "H2",
+          "text": "City #001",
+          "size": "24px",
+          "weight": "500"
+        },
+        {
+          "tag": "H2",
+          "text": "Last heartbeat",
+          "size": "22px",
+          "weight": "500"
+        },
+        {
+          "tag": "H2",
+          "text": "Get GRID",
+          "size": "22px",
+          "weight": "500"
+        },
+        {
+          "tag": "H2",
+          "text": "Every new neighbor grows the network.",
+          "size": "31px",
+          "weight": "500"
+        },
+        {
+          "tag": "H3",
+          "text": "Find your place",
+          "size": "17px",
+          "weight": "500"
+        },
+        {
+          "tag": "H3",
+          "text": "A fee with a purpose",
+          "size": "17px",
+          "weight": "500"
+        }
+      ]
+    },
+    {
+      "kind": "renderedContrast",
+      "pairs": [
+        {
+          "selector": ".hero h1",
+          "foreground": "rgb(238, 240, 232)",
+          "background": "rgb(13, 16, 14)",
+          "ratio": 16.64,
+          "verified": true
+        },
+        {
+          "selector": ".hero p",
+          "foreground": "rgb(161, 172, 161)",
+          "background": "rgb(13, 16, 14)",
+          "ratio": 8.14,
+          "verified": true
+        },
+        {
+          "selector": ".helper",
+          "foreground": "rgb(161, 172, 161)",
+          "background": "rgb(20, 25, 21)",
+          "ratio": 7.57,
+          "verified": true
+        },
+        {
+          "selector": ".muted",
+          "foreground": "rgb(161, 172, 161)",
+          "background": "rgb(20, 25, 21)",
+          "ratio": 7.57,
+          "verified": true
+        },
+        {
+          "selector": ".eyebrow",
+          "foreground": "rgb(161, 172, 161)",
+          "background": "rgb(13, 16, 14)",
+          "ratio": 8.14,
+          "verified": true
+        },
+        {
+          "selector": ".city-panel .primary",
+          "foreground": "rgb(23, 33, 12)",
+          "background": "rgb(196, 242, 119)",
+          "ratio": 12.96,
+          "verified": true
+        },
+        {
+          "selector": ".plot.selected",
+          "foreground": "rgb(23, 33, 12)",
+          "background": "rgb(196, 242, 119)",
+          "ratio": 12.96,
+          "verified": true
+        },
+        {
+          "selector": ".plot.owned",
+          "foreground": "rgb(238, 240, 232)",
+          "background": "rgb(36, 68, 46)",
+          "ratio": 9.41,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "kind": "mobileInputs",
+      "sizes": [
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ]
+    }
+  ]
+}

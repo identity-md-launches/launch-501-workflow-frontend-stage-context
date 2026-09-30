@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-09-30T09:35:21.574Z",
+  "mode": "read-only",
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "status": "read",
+      "chainId": 11155111,
+      "block": "11813799",
+      "codes": [
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "byteLength": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "byteLength": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "byteLength": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "byteLength": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "byteLength": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "byteLength": 9152
+        }
+      ],
+      "poolId": "0x465d0759a727479501ed08dc967ba9b94ba4d1c03136c7bc94da17139fab527c",
+      "sqrtPriceX96": "558987588417524851294219763765435",
+      "tick": 177239,
+      "liquidity": "113387377674367368214378",
+      "quotes": [
+        {
+          "direction": "ETH to GRID",
+          "amountIn": "1000000000000000",
+          "amountOut": "49626469427204108448295",
+          "gasEstimate": "37515"
+        },
+        {
+          "direction": "GRID to ETH",
+          "amountIn": "1000000000000000000000",
+          "amountOut": "20028547485448",
+          "gasEstimate": "54439"
+        }
+      ]
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "status": "read",
+      "chainId": 11155111,
+      "block": "11813799",
+      "codes": [
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "byteLength": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "byteLength": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "byteLength": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "byteLength": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "byteLength": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "byteLength": 9152
+        }
+      ],
+      "poolId": "0x465d0759a727479501ed08dc967ba9b94ba4d1c03136c7bc94da17139fab527c",
+      "sqrtPriceX96": "558987588417524851294219763765435",
+      "tick": 177239,
+      "liquidity": "113387377674367368214378",
+      "quotes": [
+        {
+          "direction": "ETH to GRID",
+          "amountIn": "1000000000000000",
+          "amountOut": "49626469427204108448295",
+          "gasEstimate": "37515"
+        },
+        {
+          "direction": "GRID to ETH",
+          "amountIn": "1000000000000000000000",
+          "amountOut": "20028547485448",
+          "gasEstimate": "54439"
+        }
+      ]
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "status": "read",
+      "chainId": 11155111,
+      "block": "11813799",
+      "codes": [
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "byteLength": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "byteLength": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "byteLength": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "byteLength": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "byteLength": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "byteLength": 9152
+        }
+      ],
+      "poolId": "0x465d0759a727479501ed08dc967ba9b94ba4d1c03136c7bc94da17139fab527c",
+      "sqrtPriceX96": "558987588417524851294219763765435",
+      "tick": 177239,
+      "liquidity": "113387377674367368214378",
+      "quotes": [
+        {
+          "direction": "ETH to GRID",
+          "amountIn": "1000000000000000",
+          "amountOut": "49626469427204108448295",
+          "gasEstimate": "37515"
+        },
+        {
+          "direction": "GRID to ETH",
+          "amountIn": "1000000000000000000000",
+          "amountOut": "20028547485448",
+          "gasEstimate": "54439"
+        }
+      ]
+    }
+  ]
+}

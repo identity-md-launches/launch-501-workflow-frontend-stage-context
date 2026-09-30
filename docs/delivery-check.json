@@ -1,0 +1,16 @@
+{
+  "scope": "All existing tracked files plus allowed untracked submission files, before this report",
+  "candidateFileBytes": 3580591,
+  "maximumSubmissionBytes": 8388608,
+  "fileCount": 104,
+  "protectedTrackedFilesChanged": [],
+  "outOfScopeNewFiles": [],
+  "submodules": 0,
+  "dependencyCacheOrArchiveFilesIncluded": 0,
+  "exportBytes": 533673,
+  "assetCount": 8,
+  "testedManifestSha256": "618f17b3298b6d045d5e8c5e0f0ab3228a7cd1640f8be9e67ad3b1b2d1ee33d1",
+  "browserScenariosPassed": 15,
+  "protocolHelperChecksPassed": 7,
+  "localGitCommit": "Unavailable: .git/index.lock creation rejected by read-only filesystem"
+}
